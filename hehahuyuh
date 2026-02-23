@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gvalo Nails</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Gvalo Nails 💅</h1>
+        <nav>
+            <a href="#collections">Collections</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Press-On Nails for Every Mood</h2>
+        <p>Minimalistic, chic, and totally girly 💖</p>
+        <a href="#collections" class="btn">Shop Now</a>
+    </section>
+
+    <section id="collections" class="collections">
+        <h2>Our Collections</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x400/FFC0CB/fff?text=Rose+Blush" alt="Rose Blush">
+                <h3>Rose Blush</h3>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x400/FFB6C1/fff?text=Sweet+Peach" alt="Sweet Peach">
+                <h3>Sweet Peach</h3>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x400/FFD1DC/fff?text=Pastel+Dream" alt="Pastel Dream">
+                <h3>Pastel Dream</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Gvalo Nails</h2>
+        <p>We craft beautiful, easy-to-apply press-on nails for every occasion. Fun, girly, and made for you!</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at <a href="mailto:gvalo@nails.com">gvalo@nails.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gvalo Nails. All rights reserved.</p>
+    </footer>
+</body>
+</html>
