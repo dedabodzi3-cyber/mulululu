@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gvalo Nails</title>
+    <title>Mellos Nails</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Gvalo Nails 💅</h1>
+        <h1>Mellos Nails 💅</h1>
         <nav>
             <a href="#collections">Collections</a>
             <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#order">Order</a>
         </nav>
     </header>
 
     <section class="hero">
-        <h2>Press-On Nails for Every Mood</h2>
+        <h2>Beautiful Press-On Nails for Every Mood</h2>
         <p>Minimalistic, chic, and totally girly 💖</p>
         <a href="#collections" class="btn">Shop Now</a>
     </section>
@@ -42,17 +42,52 @@
     </section>
 
     <section id="about" class="about">
-        <h2>About Gvalo Nails</h2>
+        <h2>About Mellos Nails</h2>
         <p>We craft beautiful, easy-to-apply press-on nails for every occasion. Fun, girly, and made for you!</p>
     </section>
 
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Email us at <a href="mailto:gvalo@nails.com">gvalo@nails.com</a></p>
+    <section id="order" class="contact">
+        <h2>Order Your Nails</h2>
+        <form name="nail-order" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="nail-order">
+            
+            <label for="size">Choose Size:</label>
+            <select name="size" id="size" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <label for="length">Choose Length:</label>
+            <select name="length" id="length" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <label for="design">Choose Design:</label>
+            <select name="design" id="design" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <button type="submit" class="btn">Order Now</button>
+        </form>
+        <p>Follow us on Instagram: <a href="https://www.instagram.com/mellosnailart/" target="_blank">@mellosnailart</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2026 Gvalo Nails. All rights reserved.</p>
+        <p>&copy; 2026 Mellos Nails. All rights reserved.</p>
     </footer>
 </body>
 </html>
