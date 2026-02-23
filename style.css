@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #fff0f5; /* soft pink */
+    background-color: #fff0f5;
     color: #333;
     line-height: 1.6;
 }
@@ -37,7 +37,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Hero section */
+/* Hero */
 .hero {
     text-align: center;
     padding: 4rem 2rem;
@@ -62,6 +62,8 @@ nav a:hover {
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
+    cursor: pointer;
+    border: none;
 }
 
 .btn:hover {
@@ -106,10 +108,33 @@ nav a:hover {
     text-align: center;
 }
 
-/* Footer */
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 0.5rem 0 0.2rem;
+    font-weight: 500;
+}
+
+input, select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
     background-color: #ffe4e1;
+    color: #ff1493;
+}
+
+a {
     color: #ff1493;
 }
